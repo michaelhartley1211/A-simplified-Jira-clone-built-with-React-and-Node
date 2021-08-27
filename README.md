@@ -8,10 +8,6 @@
   <a href="https://github.com/oldboyxx/jira_clone/tree/master/api">View API</a>
 </h3>
 
-![Tech logos](https://i.ibb.co/DVFj8PL/tech-icons.jpg)
-
-![App screenshot](https://i.ibb.co/W3qVvCn/jira-optimized.jpg)
-
 ## What is this and who is it for 🤷‍♀️
 
 I do React consulting and this is a showcase product I've built in my spare time. It's a very good example of modern, real-world React codebase.
@@ -50,11 +46,11 @@ There are features missing from this showcase product which should exist in a re
 
 ### Migrations 🗄
 
-We're currently using TypeORM's `synchronize` feature which auto creates the database schema on every application launch. It's fine to do this in a showcase product or during early development while the product is not used by anyone, but before going live with a real product, we should [introduce migrations](https://github.com/typeorm/typeorm/blob/master/docs/migrations.md).
+We're currently using TypeORM's `synchronize` feature which auto creates the database schema on every application launch. It's fine to do this in a showcase product or during early development while the product is not used by anyone, but before going live with a real product, we should [introduce migrations]
 
 ### Proper authentication system 🔐
 
-We currently auto create an auth token and seed a project with issues and users for anyone who visits the API without valid credentials. In a real product we'd want to implement a proper [email and password authentication system](https://www.google.com/search?q=email+and+password+authentication+node+js&oq=email+and+password+authentication+node+js).
+We currently auto create an auth token and seed a project with issues and users for anyone who visits the API without valid credentials. In a real product we'd want to implement a proper [email and password authentication system]
 
 ### Accessibility ♿
 
@@ -62,12 +58,13 @@ Not all components have properly defined [aria attributes](https://developer.moz
 
 ### Unit/Integration tests 🧪
 
-Both Client and API are currently tested through [end-to-end Cypress tests](https://github.com/oldboyxx/jira_clone/tree/master/client/cypress/integration). That's good enough for a relatively simple application such as this, even if it was a real product. However, as the app grows in complexity, it might be wise to start writing additional unit/integration tests.
+Both Client and API are currently tested through [end-to-end Cypress tests]
+That's good enough for a relatively simple application such as this, even if it was a real product. However, as the app grows in complexity, it might be wise to start writing additional unit/integration tests.
 
 ## Author: Ivor Reic ✍️
 
 - Website: https://getivor.com/
-- Skype handle: ivor.reic 💬
+- Skype handle: tommyallenreact@gmail.com 💬
 
 ## Contributing
 
@@ -76,11 +73,3 @@ I will not be accepting PR's on this repository. Feel free to fork and maintain 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
-
-<hr>
-
-<h3>
-  <a href="https://jira.ivorreic.com/">Visit the live app</a> |
-  <a href="https://github.com/oldboyxx/jira_clone/tree/master/client">View client</a> |
-  <a href="https://github.com/oldboyxx/jira_clone/tree/master/api">View API</a>
-</h3>
